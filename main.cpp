@@ -5,5 +5,7 @@ using namespace std;
 
 int main()
 {
-   HTMLConverter *test = new HTMLConverter("./test_documents/1.md");
+   HTMLConverter * test = new HTMLConverter("./test_documents/1.md");
+   test->convert("output_log.html");
+   delete test;
 }
