@@ -11,7 +11,7 @@ public:
 
    HTMLConverter(const string& filepath);
    void readMD(const string& filepath);
-   void convert();
+   void convert(const string& outputFilepath);
    void outputToFile();
 
 private:
